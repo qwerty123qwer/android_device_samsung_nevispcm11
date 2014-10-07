@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Project Nevis Cm11 : CM11 Device configuration files for the galaxy fame">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Project Nevis Cm11</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/wulsic/android_device_samsung_nevispcm11">View on GitHub</a>
+
+          <h1 id="project_title">Project Nevis Cm11</h1>
+          <h2 id="project_tagline">CM11 Device configuration files for the galaxy fame</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/wulsic/android_device_samsung_nevispcm11/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/wulsic/android_device_samsung_nevispcm11/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+
+<h1>
+<a name="samsung-galaxy-fame-s6810s6810p" class="anchor" href="#samsung-galaxy-fame-s6810s6810p"><span class="octicon octicon-link"></span></a>Samsung-Galaxy-Fame (S6810/S6810P)</h1>
+
+<p>Cyanogenmod 11 device tree for Samsung S6810/S6810P
+Patches neccesary for building:
+Commit to EGL,Framebuffer to work normal: <a href="https://github.com/PAC-man/android_frameworks_native/commit/0c81fda74f6e7f9dc5f48bd00e4dbeaef12fdbc2">https://github.com/PAC-man/android_frameworks_native/commit/0c81fda74f6e7f9dc5f48bd00e4dbeaef12fdbc2</a>
+Patch to hardware/broadcom/libbt for bluetooth to work: <a href="https://gist.github.com/pawitp/7891380">https://gist.github.com/pawitp/7891380</a>. 
+Patch to frameworks/native to workaround hwc issues: <a href="https://gist.github.com/pawitp/7891444">https://gist.github.com/pawitp/7891444</a>.
+Patch to frameworks/av to fix audio/video issues: <a href="https://gist.github.com/pawitp/7945188">https://gist.github.com/pawitp/7945188</a>
+Dual SIM Patches: <a href="https://gist.github.com/pawitp/9433442">https://gist.github.com/pawitp/9433442</a></p>
+
+<p><strong>Switch between Dual Sim and Single Sim</strong>
+Enable:
+Code:
+<code>su</code>
+<code>setprop persist.radio.multisim.config dsds</code>
+Disable:
+Code:
+<code>su</code></p>
+
+<h1>
+<a name="setprop-persistradiomultisimconfig-none" class="anchor" href="#setprop-persistradiomultisimconfig-none"><span class="octicon octicon-link"></span></a><code>setprop persist.radio.multisim.config none</code>
+</h1>
+
+<h1>
+<a name="android_device_samsung_nevispcm11" class="anchor" href="#android_device_samsung_nevispcm11"><span class="octicon octicon-link"></span></a>android_device_samsung_nevispcm11</h1>
+
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>a071ca176665ee4e86acc1a43231de13bb6b67a6</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Project Nevis Cm11 maintained by <a href="https://github.com/wulsic">wulsic</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
